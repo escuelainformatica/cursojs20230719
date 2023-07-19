@@ -11,13 +11,15 @@ export default {
     },
     /**
      * 
-     * @param {{titulo,autor:{nombre,apellido}}} libro 
+     * @param {{titulo,autor:{nombre,apellido,pais:{nombre,continente}}}} libro 
      */
     libroMostrar:function (libro) {
         console.log("-----------libro------------------");
         console.log("Titulo :"+libro.titulo);
         console.log("Autor  - Nombre :"+libro.autor.nombre);
         console.log("Autor  - Apellido :"+libro.autor.apellido);
+        console.log("Autor  - Pais    - Nombre: "+libro.autor.pais.nombre);
+        console.log("Autor  - Pais    - Continente: "+libro.autor.pais.continente);
         console.log("----------------------------------");
     },
     /**

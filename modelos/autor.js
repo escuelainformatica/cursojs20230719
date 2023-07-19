@@ -1,4 +1,8 @@
 export default {
     nombre:"Lewis",
-    apellido:"Carroll"
+    apellido:"Carroll",
+    pais:{
+        nombre:"Chile",
+        continente:"America"
+    }
 }
