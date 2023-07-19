@@ -1,0 +1,20 @@
+{
+  "name": "cursojs20230719",
+  "version": "1.0.0",
+  "description": "este es un ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escuelainformatica/cursojs20230719.git"
+  },
+  "author": "jorge",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/escuelainformatica/cursojs20230719/issues"
+  },
+  "homepage": "https://github.com/escuelainformatica/cursojs20230719#readme"
+}
